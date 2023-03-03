@@ -1,1 +1,147 @@
 
+
+body {
+    height: 100vh;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.Header-Logo-Container, .Awesome-Text-Container, .Top-Right-Links, .Random-Container, .Quote-Container {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.Header-Logo-Container {
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+.Header, .Footer {
+    background-color: #1f2937;
+}
+
+
+.Header-Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: 5;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Top-Right-Links {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px;
+    margin-top: 5;
+}
+
+.Awesome-Text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.Awesome-Text-Container {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 75px;
+    margin-top: 75px;
+ 
+}
+
+.Awesome-Subtext-Container {
+    width: 400px;
+}
+
+.Call-Container, .Sign-Up, .Sign-Up2 {
+    background-color: #3882f6;
+}
+
+.Sign-Up2 {
+    color: white;
+    height: 25px;
+    width: 100px;
+}
+
+
+.Random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.Random-Container {
+    gap: 50px;
+    margin-bottom: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.Pics {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+.Another-Subtext, .Pics {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.Quote-Container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+}
+
+.Call-Container {
+  display: flex;
+  align-self: center;
+  max-width: 500px;
+  min-width: 500px;
+  border: 5px solid #3882f6;
+  border-radius: 5px;
+  padding: 10px 100px;
+  margin: 100px;
+  gap: 0;
+}
+
+.Separator {
+    color: white;
+}
+
+.More-Text {
+    margin: 0;
+}
+
+.Sign-Up2 {
+    border: 1px solid white;
+    border-radius: 3px;
+    align-self: center;
+    margin-left: 20px;
+    
+
+}
+
+.Footer {
+    text-align: center;
+}
